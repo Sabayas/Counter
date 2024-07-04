@@ -1,0 +1,55 @@
+#countLabel {
+  display: block;
+  text-align: center;
+  font-size: 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+}
+
+#decreaseBtn{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    
+}
+
+#decreaseBtn:hover{
+    background-color: rgb(109, 162, 29);
+    color: white;
+}
+
+#resetBtn{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: orange;
+    
+}
+
+#resetBtn:hover{
+    background-color: rgb(163, 107, 2);
+    color: white;
+
+}
+
+#IncreaseBtn{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(153, 80, 221);
+    
+}
+
+#IncreaseBtn:hover{
+    background-color: rgb(90, 48, 130);
+    color: white;
+}
